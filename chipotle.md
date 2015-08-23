@@ -42,7 +42,7 @@ code: grep -i "chicken burrito" chipotle.tsv > chicken_burrito.tsv
 grep -i "black" chicken_burrito.tsv | wc -l
 grep -i "pinto" chicken burrito.tsv | wc -l
 
-*Question 6*
+**Question 6**
 
 There are 3 CSV or TSV files in the DAT8 repo: airlines.csv, chipotle.tsv and sms.tsv
 
@@ -50,7 +50,7 @@ code: cd DAT8
 find . -name \*.?sv
 find . -name '*.?sv'
 
-*Question 7*
+**Question 7**
 
 The word dictionary appears 210 times.
 Note: lowercase dictionary appears only 135 times.
@@ -58,7 +58,7 @@ Note: lowercase dictionary appears only 135 times.
 code: grep -r 'dictionary' . | wc -w
 grep -r '[Dd]ictionary . | wc -w
 
-*Question 8*
+**Question 8**
 
 Somebody spent $15 buying water.
 
