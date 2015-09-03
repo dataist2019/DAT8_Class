@@ -122,3 +122,14 @@ len(set(my_list))
 1 in my_list
 
 'name' in my_dict
+
+burrito=0
+toppings=0
+
+for row in data:
+    if 'Burrito' in row[2]:
+        burrito +=1
+        toppings += (row[3].count(',') + 1)
+
+toppings/burrito
+
